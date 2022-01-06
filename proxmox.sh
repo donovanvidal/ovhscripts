@@ -8,7 +8,7 @@ systemctl restart sshd
 # Update and install essential packages 
 apt update
 apt upgrade -y
-#apt install -y ifupdown2 openvswitch-switch fail2ban
+apt install -y ifupdown2 openvswitch-switch fail2ban
 
 
 
